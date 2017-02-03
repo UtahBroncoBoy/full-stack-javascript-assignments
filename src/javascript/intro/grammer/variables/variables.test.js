@@ -10,5 +10,9 @@ Test('message is proper', t => {
 });
 
 Test('saying is proper', t => {
-  t.is(Assignment.saying, 'What up?');
+  t.is(Assignment.saying, 'Booyah');
+});
+
+Test('myConst is proper', t => {
+  t.is(Assignment.myConst, 'This is my const');
 });
