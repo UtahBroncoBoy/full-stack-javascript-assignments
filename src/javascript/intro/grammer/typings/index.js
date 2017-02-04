@@ -1,4 +1,4 @@
-export let mine = {
+export default {
   name: {
     first: 'Jeff',
     last: 'Fredericks'
