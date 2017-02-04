@@ -1,21 +1,27 @@
-export default {
-  isTrue: true,
-  isFalse: false,
-  email: 'tjgarlick@gmail.com',
-  age: 35,
-  height: 64.5,
-  phone: '8012012200',
-  favoriteFoods: ['Apple', 'Banana', 'Potato'],
+export let mine = {
   name: {
-    first: 'Tyler',
-    last: 'Garlick'
+    first: 'Jeff',
+    last: 'Fredericks'
   },
-  notDefined: undefined,
-  nullable: null,
+  age: 43,
+  happy: true,
+  stressed: false,
+  numberOfMansions: null,
+  catsOwned:undefined,
+  ageOfKids: [18, 15, 13, 8],
+  isStressed() {
+    let startTime = new Date().getMilliseconds();
+    if(this.stressed === true)  {
+      console.log(this.name.first + ' is stressed today!');
+    } else {
+      console.log(this.name.first + ' is feeling at peace.');
+    } 
+    let endTime = new Date().getMilliseconds();
+    let durationTime = endTime - startTime;
+    console.log('The isStressed method took ' + durationTime + ' milliseconds to run.');
+  },
   greet() {
-    return 'Hello';
-  },
-  emptyString: '',
-  zero: 0,
-  one: 1
+    return this.name.first + ' says hello.';
+  }
+  
 };
