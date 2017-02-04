@@ -1,3 +1,9 @@
+/* This is where the description of the entire file
+ * will be held.
+ * Author: Jeff
+ * Date last updated 2/4/2017
+ */
+
 // Setup variables and constants
 export var message = 'hello';
 export let greeting = 'Yo!';
@@ -10,3 +16,10 @@ greeting = 'hello';
 
 // This line will throw an error, as a const is immutable
 saying = 'Booyah';
+
+// This is a single line comment.
+
+
+
+
+
