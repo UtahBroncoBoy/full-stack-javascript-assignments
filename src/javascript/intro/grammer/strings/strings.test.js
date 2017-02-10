@@ -5,8 +5,8 @@ Test('greeting is set to `Hello World`', t => {
   t.is(Assignment.greeting, 'Hello World');
 });
 
-Test(`characterAt is 'o'`, t => {
-  t.is(Assignment.characterAt, 'o');
+Test(`characterAt is 'l'`, t => {
+  t.is(Assignment.characterAt, 'l');
 });
 
 Test(`greetingArray is an array`, t => {
